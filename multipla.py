@@ -46,7 +46,7 @@ def multipla():
 
         valor_aposta_final = float(input("Digite o valor da sua aposta final: "))
         ganho_potencial_final = valor_aposta_final * sum(acumulado_por_jogo.values())
-        print(f"Você ganhou {ganho_potencial_final} se todos os resultados forem a seu favor.")
+        print(f"Você ganhou R${ganho_potencial_final} se todos os resultados forem a seu favor.")
 
 # Chama a função multipla
 multipla()
